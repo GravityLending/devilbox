@@ -1,8 +1,30 @@
 <p align="center">
-    <h1 align="center">The Devilbox</h1>
+    <h1 align="center">The Gravitybox</h1>
 </p>
 
-![Devilbox](docs/img/banner.png)
+![Gravitybox](https://gravitylending.com/wp-content/uploads/2020/06/GL-LOGO.png)
+
+
+**Getting Started**
+
+```bash
+git clone https://github.com/GravityLending/devilbox
+```
+
+***Set UID & GID***
+Edit the existing .env file to set NEW_UID to the value returned by 
+```bash
+id -u
+```
+& set NEW_GID to the value returned by ```bash
+id -g
+```
+
+***Start Containers***
+Within the repo directory run
+```bash
+docker-compose up -d httpd php mysql
+```
 
 **[Usage](#usage)** |
 **[Architecture](#architecture)** |
@@ -167,7 +189,7 @@ simplify your every-day life. If you ever run into any unforseen issues, feel fr
   <tr>
    <td>
 <div class="highlight highlight-source-shell"><pre># Get the Devilbox
-git clone https://github.com/cytopia/devilbox</pre></div>
+git clone https://github.com/GravityLending/devilbox</pre></div>
 <div class="highlight highlight-source-shell"><pre># Create docker-compose environment file
 cd devilbox
 cp env-example .env</pre></div>
@@ -177,7 +199,7 @@ vim .env</pre></div>
 docker-compose up</pre></div>
    </td>
    <td>
-    1. Clone <code>https://github.com/cytopia/devilbox</code> to <code>C:\devilbox</code> with <a href="https://git-scm.com/downloads">Git for Windows</a><br/><br/>
+    1. Clone <code>https://github.com/GravityLending/devilbox</code> to <code>C:\devilbox</code> with <a href="https://git-scm.com/downloads">Git for Windows</a><br/><br/>
     2. Copy <code>C:\devilbox\env-example</code> to <code>C:\devilbox\.env</code><br/><br/>
     3. Edit <code>C:\devilbox\.env</code><br/><br/>
     4. <a href="https://devilbox.readthedocs.io/en/latest/howto/terminal/open-terminal-on-win.html">Open a terminal on Windows</a> and type:<br/><br/><br/>

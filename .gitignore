@@ -14,7 +14,7 @@
 ######################################
 
 # Ignore variable data
-/.env
+#/.env
 /backups/*
 
 # Ignore Data dirs
@@ -49,15 +49,15 @@
 
 
 # Ignore custom global vhost gen templates
-/cfg/vhost-gen/apache22.conf
-/cfg/vhost-gen/apache24.conf
-/cfg/vhost-gen/nginx.conf
+#/cfg/vhost-gen/apache22.conf
+#/cfg/vhost-gen/apache24.conf
+#/cfg/vhost-gen/nginx.conf
 
 # Ignore custom HTTPD configs
-/cfg/apache-2.2/*.conf
-/cfg/apache-2.4/*.conf
-/cfg/nginx-stable/*.conf
-/cfg/nginx-mainline/*.conf
+#/cfg/apache-2.2/*.conf
+#/cfg/apache-2.4/*.conf
+#/cfg/nginx-stable/*.conf
+#/cfg/nginx-mainline/*.conf
 
 # Ignore custom MySQL configs
 /cfg/mysql-5.5/*.cnf
@@ -85,9 +85,9 @@
 /cfg/php-ini-7.0/*.ini
 /cfg/php-ini-7.1/*.ini
 /cfg/php-ini-7.2/*.ini
-/cfg/php-ini-7.3/*.ini
-/cfg/php-ini-7.4/*.ini
-/cfg/php-ini-8.0/*.ini
+#/cfg/php-ini-7.3/*.ini
+#/cfg/php-ini-7.4/*.ini
+#/cfg/php-ini-8.0/*.ini
 
 # Ignore custom PHP-FPM configs
 /cfg/php-fpm-5.2/php-fpm.xml
@@ -99,9 +99,9 @@
 /cfg/php-fpm-7.1/*.conf
 /cfg/php-fpm-7.2/*.conf
 /cfg/php-fpm-7.3/*.conf
-/cfg/php-fpm-7.4/*.conf
-/cfg/php-fpm-8.0/*.conf
-/cfg/php-fpm-8.1/*.conf
+#/cfg/php-fpm-7.4/*.conf
+#/cfg/php-fpm-8.0/*.conf
+#/cfg/php-fpm-8.1/*.conf
 
 # Ignore custom PHP-FPM startup scripts
 /autostart/*.sh
@@ -114,9 +114,9 @@
 /cfg/php-startup-7.1/*.sh
 /cfg/php-startup-7.2/*.sh
 /cfg/php-startup-7.3/*.sh
-/cfg/php-startup-7.4/*.sh
-/cfg/php-startup-8.0/*.sh
-/cfg/php-startup-8.1/*.sh
+#/cfg/php-startup-7.4/*.sh
+#/cfg/php-startup-8.0/*.sh
+#/cfg/php-startup-8.1/*.sh
 
 # Ignorecustom Varnish configs
 /cfg/varnish-4/*.vcl
@@ -133,9 +133,9 @@
 /mod/php-fpm-7.1/*.so
 /mod/php-fpm-7.2/*.so
 /mod/php-fpm-7.3/*.so
-/mod/php-fpm-7.4/*.so
-/mod/php-fpm-8.0/*.so
-/mod/php-fpm-8.1/*.so
+#/mod/php-fpm-7.4/*.so
+#/mod/php-fpm-8.0/*.so
+#/mod/php-fpm-8.1/*.so
 
 # Ignore supervisord configs
 /supervisor/*.conf
